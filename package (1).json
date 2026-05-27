@@ -1,0 +1,22 @@
+{
+  "name": "destrave-base-prestadores",
+  "version": "1.0.0",
+  "description": "Automação de cadastro de prestadores de serviço via e-mail — Destrave",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "googleapis": "^137.1.0",
+    "axios": "^1.6.0",
+    "openai": "^4.28.0",
+    "pdf-parse": "^1.1.1",
+    "mammoth": "^1.7.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
